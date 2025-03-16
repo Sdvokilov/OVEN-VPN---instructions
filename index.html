@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Инструкция по установке VPN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Инструкция по установке VPN</h1>
+        <p>Следуйте этим шагам, чтобы настроить VPN на вашем устройстве.</p>
+
+        <h2>1. Скачайте конфигурацию</h2>
+        <p>Скачайте файл конфигурации: <a href="client.ovpn" download>client.ovpn</a>.</p>
+
+        <h2>2. Установите OpenVPN</h2>
+        <p>Скачайте и установите приложение OpenVPN:</p>
+        <ul>
+            <li><a href="https://openvpn.net/client/">OpenVPN для Windows/macOS</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn">OpenVPN для Android</a></li>
+            <li><a href="https://apps.apple.com/app/openvpn-connect/id590379981">OpenVPN для iOS</a></li>
+        </ul>
+
+        <h2>3. Импортируйте конфигурацию</h2>
+        <p>Откройте приложение OpenVPN и импортируйте скачанный файл <code>client.ovpn</code>.</p>
+
+        <h2>4. Подключитесь к VPN</h2>
+        <p>Нажмите кнопку подключения в приложении OpenVPN.</p>
+
+        <h2>Готово!</h2>
+        <p>Теперь ваш интернет-трафик защищён через VPN.</p>
+    </div>
+</body>
+</html>
